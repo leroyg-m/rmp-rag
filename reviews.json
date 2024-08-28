@@ -1,0 +1,125 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. John Smith",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "An exceptional professor with a deep understanding of algorithms. His lectures are clear and well-structured."
+      },
+      {
+        "professor": "Dr. Emily Johnson",
+        "subject": "Data Science",
+        "stars": 4,
+        "review": "Dr. Johnson is very knowledgeable but her classes can be challenging. However, she is always willing to help."
+      },
+      {
+        "professor": "Dr. Michael Brown",
+        "subject": "Mathematics",
+        "stars": 3,
+        "review": "The content is difficult but Dr. Brown tries his best to make it understandable. His grading is fair."
+      },
+      {
+        "professor": "Dr. Sarah Davis",
+        "subject": "Physics",
+        "stars": 5,
+        "review": "Incredible professor with a passion for teaching. Her labs are very engaging and informative."
+      },
+      {
+        "professor": "Dr. Richard Wilson",
+        "subject": "Chemistry",
+        "stars": 2,
+        "review": "Dr. Wilson’s lectures can be hard to follow. He often goes off on tangents, making it difficult to stay focused."
+      },
+      {
+        "professor": "Dr. Jessica Garcia",
+        "subject": "Biology",
+        "stars": 4,
+        "review": "Dr. Garcia is a very good professor. Her explanations are clear, but her exams can be tricky."
+      },
+      {
+        "professor": "Dr. William Martinez",
+        "subject": "History",
+        "stars": 3,
+        "review": "He knows the subject well, but his lectures can be monotonous at times. Be prepared to read a lot."
+      },
+      {
+        "professor": "Dr. Patricia Anderson",
+        "subject": "English Literature",
+        "stars": 5,
+        "review": "Dr. Anderson makes literature come alive. Her discussions are always engaging and thought-provoking."
+      },
+      {
+        "professor": "Dr. James Thomas",
+        "subject": "Economics",
+        "stars": 4,
+        "review": "A very knowledgeable professor. He explains economic concepts clearly, but his classes move at a fast pace."
+      },
+      {
+        "professor": "Dr. Linda Lee",
+        "subject": "Sociology",
+        "stars": 5,
+        "review": "Dr. Lee is an amazing professor who deeply cares about her students. Her classes are both challenging and rewarding."
+      },
+      {
+        "professor": "Dr. Robert Harris",
+        "subject": "Philosophy",
+        "stars": 4,
+        "review": "Dr. Harris is very engaging in class. His assignments encourage deep thinking, but they can be quite difficult."
+      },
+      {
+        "professor": "Dr. Barbara Clark",
+        "subject": "Political Science",
+        "stars": 3,
+        "review": "Dr. Clark is knowledgeable but can be a bit unapproachable at times. Her lectures are well-organized though."
+      },
+      {
+        "professor": "Dr. Mark Lewis",
+        "subject": "Statistics",
+        "stars": 2,
+        "review": "The material is difficult and Dr. Lewis does not explain it well. Be prepared to spend a lot of time studying on your own."
+      },
+      {
+        "professor": "Dr. Karen Walker",
+        "subject": "Psychology",
+        "stars": 5,
+        "review": "Dr. Walker is passionate about psychology and it shows in her teaching. Her classes are always full of energy."
+      },
+      {
+        "professor": "Dr. Steven Young",
+        "subject": "Engineering",
+        "stars": 4,
+        "review": "Dr. Young is very thorough and detailed in his explanations. However, his exams are very challenging."
+      },
+      {
+        "professor": "Dr. Betty King",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Dr. King is an outstanding professor. Her ability to break down complex philosophical ideas is impressive."
+      },
+      {
+        "professor": "Dr. Charles Wright",
+        "subject": "Chemistry",
+        "stars": 3,
+        "review": "Dr. Wright is very knowledgeable, but his lectures can be dry. However, he is very helpful during office hours."
+      },
+      {
+        "professor": "Dr. Susan Scott",
+        "subject": "Art History",
+        "stars": 4,
+        "review": "Dr. Scott’s lectures are fascinating. She is passionate about art history, which makes her classes very interesting."
+      },
+      {
+        "professor": "Dr. Matthew Green",
+        "subject": "Physics",
+        "stars": 2,
+        "review": "Dr. Green’s lectures are hard to follow and he does not provide much help outside of class. The exams are very tough."
+      },
+      {
+        "professor": "Dr. Lisa Adams",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Dr. Adams is a brilliant professor who makes coding fun and understandable. Her projects are challenging but very rewarding."
+      }
+    ]
+  }
+  
