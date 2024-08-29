@@ -7,13 +7,16 @@ export async function POST(req) {
     console.log("Received data:", query);
 
     // Send the received query directly to the external API
-    const response = await fetch("http://localhost:8000/scrape/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ query }), // Send the query in the correct format
-    });
+    const response = await fetch(
+      "https://rmprag-abdulsz-abduls-projects-03968352.vercel.app/scrape/",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query }), // Send the query in the correct format
+      }
+    );
 
     // Check if the response is OK (status code 200-299)
     if (!response.ok) {
