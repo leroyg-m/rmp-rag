@@ -143,31 +143,39 @@ export default function Home() {
           ))}
         </Stack>
         <Stack direction="row" spacing={2}>
-          <TextField
-            sx={{
-              "& .MuiOutlinedInput-root": {
-                "& fieldset": {
-                  borderColor: "#684756",
-                },
-                "&.Mui-focused fieldset": {
-                  borderColor: "#96705B",
-                },
-              },
-              "& .MuiInputLabel-root": {
-                color: "#bdbdbd",
-              },
-              "& .MuiInputBase-input": {
-                color: "#bdbdbd",
-              },
-              "& .MuiInputLabel-root.Mui-focused": {
-                color: "#bdbdbd",
-              },
-            }}
-            label="message"
-            fullWidth
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
+        <TextField
+        sx={{
+    "& .MuiOutlinedInput-root": {
+      "& fieldset": {
+        borderColor: "#684756",
+      },
+      "&.Mui-focused fieldset": {
+        borderColor: "#96705B",
+      },
+    },
+    "& .MuiInputLabel-root": {
+      color: "#bdbdbd",
+    },
+    "& .MuiInputBase-input": {
+      color: "#bdbdbd",
+    },
+    "& .MuiInputLabel-root.Mui-focused": {
+      color: "#bdbdbd",
+    },
+  }}
+  label="message"
+  fullWidth
+  value={message}
+  onChange={(e) => setMessage(e.target.value)}
+  onKeyDown={(e) => {
+    console.log(" key pressed",e.key);
+    if (e.key === "Enter") {
+      e.preventDefault(); // Prevents new line if using a multiline TextField
+      sendMessage();
+    }
+  }}
+/>
+
 
           <Button
             sx={{
